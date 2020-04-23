@@ -1,14 +1,17 @@
-## Description
+---
+name: "🐛 Bug report"
+about: Create a report to help us improve
+labels: bug
+---
+
+## 🐛 Bug Report
 
 Briefly describe the issue.
 Include a [reduced test case](https://css-tricks.com/reduced-test-cases/) if possible (CodePen or another).
 
 ## Steps to reproduce
 
-Explain in detail the exact steps necessary to reproduce the issue.
-1.
-2.
-3.
+Explain in detail the exact steps necessary to reproduce the issue. 1. 2. 3.
 
 ## Results
 
