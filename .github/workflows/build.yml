@@ -33,6 +33,9 @@ jobs:
       - name: Test ESLint
         run: npm run test:eslint
 
+      - name: Test Typescript
+        run: npm run test:type-check
+
       - name: Test Markdown
         run: npm run test:markdown
 
