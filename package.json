@@ -15,7 +15,7 @@
 		"coverage": "npm run test:coverage && cat ./coverage/lcov.info | coveralls",
 		"test": "jest",
 		"test:coverage": "jest --coverage",
-		"test:eslint": "eslint .",
+		"test:eslint": "eslint . --ignore-pattern lib",
 		"test:markdown": "markdownlint '**/*.md' --ignore node_modules",
 		"test:type-check": "tsc --noEmit",
 		"test:watch": "jest --watchAll --coverage",
